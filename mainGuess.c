@@ -4,7 +4,7 @@
 
 #define MIN 1
 #define MAX 100
-#define NTENTATIVIMAX 3
+#define NTENTATIVIMAX 5
 
 int main() {
 
