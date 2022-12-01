@@ -1,5 +1,3 @@
-// C program for the above approach
-#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -10,7 +8,7 @@
 
 int main() {
 
-    int nt, numero, guess, numeroprove;
+    int numero, guess, numeroprove;
 
     //Inizializzo il seme randomico della sequenza casuale
     srand(time(NULL));
@@ -24,7 +22,6 @@ int main() {
         printf("Indovina il numero tra 1 e %d\n", MAX);
         // Input by user
         scanf("%d", &guess);
-
 
         if (guess > numero) {
             printf("Il valore e' minore!\n");
